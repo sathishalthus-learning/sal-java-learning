@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.learnings</groupId>
-    <artifactId>sal-java-how-to-do</artifactId>
+    <artifactId>sal-java-learnings</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
