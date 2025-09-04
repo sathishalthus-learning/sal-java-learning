@@ -18,5 +18,10 @@ public class d_FactoryMethods {
 
         // collections factory class
 
+        System.out.println(stringList);
+        System.out.println(stringSet);
+        System.out.println(list);
+        System.out.println(set);
+
     }
 }

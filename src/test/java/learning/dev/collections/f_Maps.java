@@ -13,11 +13,13 @@ public class f_Maps {
                 1, "one",
                 2, "two",
                 3, "three");
+                System.out.println(map1);
 
         Map<Integer, String> map3 = Map.ofEntries(
                 Map.entry(1, "one"),
                 Map.entry(2, "two"),
                 Map.entry(3, "three"));
+        System.out.println(map3);
 
         // get, put
         // putIfabsent
