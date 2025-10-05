@@ -32,13 +32,16 @@ public class j_combiningLambdas {
         Predicate<String> isEqualToDuke = Predicate.isEqual("Duke");
         Predicate<Collection<String>> isCollectionEmpty = Collection::isEmpty;
         Predicate<Collection<String>> isNotEmpty = Predicate.not(isCollectionEmpty);
+        isEqualToDuke.test(null);
+        isNotEmpty.test(null);
 
         // default methods
         Logger logger = Logger.getLogger("MyApplicationLogger");
         Consumer<String> log = message -> logger.info(message);
-        Consumer<String> print = message -> IO.println(message);
+        Consumer<String> print = message -> System.out.println(message);
 
         Consumer<String> longAndPrint = log.andThen(print);
+        longAndPrint.accept(null);
 
         // function chaining composing
         

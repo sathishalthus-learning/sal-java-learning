@@ -1,13 +1,22 @@
 package learning.dev._17_io;
 
+import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class File01_AccesingPaths {
+public class b_AccesingResources {
     public static void main(String[] args) {
-        //
-        // retrive info of path
-        Path path = Paths.get("src\\test\\java\\resources");
+        // File Class
+        File file = new File("src\\test\\java\\resources\\commonsFile.txt");
+        System.out.println(file.getName());
+        System.out.println(file.getParent());
+        System.out.println(file.getPath());
+        System.out.println(file.getAbsolutePath());
+        System.out.println(file.isFile());
+        System.out.println(file.isDirectory());
+
+        // Path Interface
+        Path path = Paths.get("src\\test\\java\\resources\\commonsFile.txt");
 
         System.out.format("toString: %s%n", path.toString());
         System.out.format("getFileName: %s%n", path.getFileName());
