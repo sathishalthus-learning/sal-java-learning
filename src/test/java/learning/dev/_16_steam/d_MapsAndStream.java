@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 // import java.util.stream.Stream;
 
-public class d_MapStream {
+public class d_MapsAndStream {
     public static void main(String[] args) {
         //
         Map<Integer, String> map = new HashMap<>();

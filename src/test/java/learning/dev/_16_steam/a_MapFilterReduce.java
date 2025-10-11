@@ -9,6 +9,9 @@ public class a_MapFilterReduce {
         // changes number of objects 
         // dont change their type
         // Predicate interface
-    // 3 produce a result
+    // 3 reducing objects
+        // combines all objects to a single object/value
+        // BinaryOperator interface
+        
 
 }
